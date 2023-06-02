@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: demo-python-vapi-ffhl
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: demo-python-vapi-ffhl
+    app.kubernetes.io/part-of: devfile-sample-python-basic-vapi
+  name: demo-python-vapi-ffhl
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: demo-python-vapi-ffhl
+    weight: null
+status: {}
