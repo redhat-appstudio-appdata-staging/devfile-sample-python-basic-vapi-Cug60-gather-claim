@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-jech-tenant/devfile-sample-python-basic-vapi/demo-python-vapi-ffhl@sha256:05b87cd4855da7f182424b60b04a1e24486b3c7d42cacd99ccb3d22f325466e7
+      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-jech-tenant/devfile-sample-python-basic-vapi/demo-python-vapi-ffhl@sha256:e7880581644abfa78c11a0b9cc12bc6b5875226051dea886af484f3e6e2e36e2
         name: my-python
         resources: {}
 status: {}
