@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demo-python-vapi-ffhl
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-jech-tenant/devfile-sample-python-basic-vapi/demo-python-vapi-ffhl@sha256:e7880581644abfa78c11a0b9cc12bc6b5875226051dea886af484f3e6e2e36e2
+      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-jech-tenant/devfile-sample-python-basic-vapi/demo-python-vapi-ffhl@sha256:bee5a4d0d34dca9b22b10e88d1ff9d2fdab0a0eccaee806ec52d790b03b387cc
         name: my-python
         ports:
         - containerPort: 8081
