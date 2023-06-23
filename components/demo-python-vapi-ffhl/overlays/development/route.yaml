@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: demo-python-vapi-ffhl
     app.kubernetes.io/part-of: devfile-sample-python-basic-vapi
-  name: demo-python-vapi-ffhlzmey
+  name: demo-python-vapi-ffhlsz3a
 spec:
   path: /
   port:
